@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVELOPMENT</title>
+    <!-- CSS Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Add Icon URL Bar -->
+    <link rel="icon" href="assets/img/logo-url-new.png" type="image/icon type">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter+Tight'],
+                        montserrat: ['Montserrat'],
+                        poppins: ['Poppins'],
+                        roboto: ['Roboto']
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+ 
+<body class="">
+    <!-- Navbar Start -->
+    <nav class="bg-white border-gray-200 shadow-lg font-poppins sticky top-0 z-50">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:p-5">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="assets/img/BIG TEXT.png" class="h-11 md:h-14 ml-4 md:-mt-2" alt="Tristar Logo" />
+            </a>
+            <button data-collapse-toggle="navbar-dropdown" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                aria-controls="navbar-dropdown" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                <ul
+                    class="flex flex-col font-light p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+                    <li>
+                        <a href="index.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About</a>
+                    </li>
+                    <li>
+                        <a href="#product-image" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+                            aria-current="page">Product</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- WhatsApp Direct Link -->     
+        <div class="z-30 relative">
+            <div class="fixed right-7 bottom-5 bg-gradient-to-b from-blue-900 to-blue-700 h-16 w-16 rounded-2xl shadow-lg items-center">
+                <a href="https://wa.me/+6285190060033"><img class="animate-pulse object-cover mx-auto mt-4 w-8 h-8" src="assets/img/phone_11433243.png" alt=""></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Navigation Status -->
+    <div class="flex flex-row mt-7 ml-7 md:mt-10 md:ml-16">
+        <a href=""><i class="fa-solid fa-house text-gray-500 text-xs md:text-base mr-4"></i></a>
+        <p class="text-xs md:text-sm mt-1.5 md:mt-0.5 font-medium text-gray-600"><i class="fa-solid fa-greater-than text-xs text-gray-400 mr-2"></i> Product <i class="fa-solid fa-greater-than text-xs text-gray-400 mr-2 ml-2"></i> Water Detector</p>
+    </div>
+
+
+    <!-- Product Section -->
+    <section id="product-image" class="mt-4 md:mt-0 mb-20">
+        <div class="container px-8 md:px-20 md:flex md:flex-row">
+            <div id="indicators-carousel" class="relative w-full md:w-[90rem] md:h-[30rem] columns-md rounded-xl mt-5 md:-mt-9" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-full">
+                    <!-- Image 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                        <img src="assets/img/product-image-one-1.png" class="absolute block h-auto max-w-full rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Product Image One">
+                    </div>
+                    <!-- Image 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/product-image-two-2.png" class="absolute block h-auto max-w-full rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Product Image Two">
+                    </div>
+                    <!-- Image 3 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/product-image-three-1.png" class="absolute block h-auto max-w-full rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Product Image Two">
+                    </div>
+                    <!-- Image 4 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="assets/img/product-image-four-1.png" class="absolute block h-auto max-w-full rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Product Image Two">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-300/30 group-hover:bg-gray-300/60 group-focus:ring-4 group-focus:ring-gray-200/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-gray-300 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-300/30 group-hover:bg-gray-300/60 group-focus:ring-4 group-focus:ring-gray-200/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-gray-300 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
+            <div class="w-full md:w-[100rem] md:min-h-96 md:ml-1 mt-7 md:mt-5 md:px-5 font-poppins columns-md">
+                <h1 class="text-2xl md:text-3xl font-bold tracking-tight text-gray-700">AEROX WATER DETECTOR</h1>
+                <button type="button" class="text-white bg-blue-400 font-normal rounded-xl rounded-tr-none rounded-bl-none text-xs px-4 py-1 me-2 mb-2 mt-1 md:mt-2">BRAND NEW</button>
+                    <div class="flex flex-row mt-0">
+                        <button id="button-desc" class="mr-6 text-black font-semibold mt-10 mb-2" onclick="buttonDesc()">
+                            <h5 class="text-xs md:text-base">DESCRIPTION</h5>
+                        </button>
+                        <button id="button-spec" class="mr-6 text-black font-semibold mt-10 mb-2" onclick="buttonSpec()">
+                            <h5 class="text-xs md:text-base">SPEC</h5>
+                        </button>
+                        <button id="button-payment" class="text-black font-semibold mt-10 mb-2" onclick="buttonPayment()">
+                            <h5 class="text-xs md:text-base">PAYMENT METHOD</h5>
+                        </button>
+                    </div>
+
+                    <div id="text-description" class="text-sm mb-3 mt-2 font-normal text-gray-700 px-5">
+                        <p id="text-standby">Introducing Aerox Water Detector, your simple, quick, and accurate solution for locating ground water sources. Designed for ease of use and dependable performance perfect for homeowners, farmers, and small-scale explorers seeking to find groundwater sources with confidence. <br>
+                        <div class="leading-loose">
+                            <br>    Why choose Aerox Water Detector?
+                            <br>    <i class="fa fa-check mr-2"></i>95% Accurate to find ground water source point
+                            <br>    <i class="fa fa-check mr-2"></i>One button operation to initiate ground water source detection
+                            <br>    <i class="fa fa-check mr-2"></i>Integrated LCD screen showing detected water source depth in meter
+                            <br>    <i class="fa fa-check mr-2"></i>Water quality differentiation
+                            <br>    <i class="fa fa-check mr-2"></i>Durable full metal construction
+                            <br>    <i class="fa fa-check mr-2"></i>Predict aquifer depth and thickness <br>
+                        </div>
+                        <br>    Contact us for ordering: <br><br>
+                        <a href="https://wa.me/+6285190060033" class="focus:outline-none text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:ring-green-300 font-normal rounded-md text-xs px-4 py-2 me-2 mb-2 mt-4">WhatsApp</a>
+                        <a href="https://www.facebook.com/share/sZC2RhDVAsGyGSAn/?mibextid=kFxxJD" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-normal rounded-md text-xs px-4 py-2 me-2 mb-2">Facebook</a>
+                        </p>
+                    </div>
+            </div>
+
+            <div class="mt-5 ml-2 md:w-[60rem] h-56 p-5 font-poppins border border-gray-300 rounded-md">
+                <h1 class="text-2xl md:text-xl font-medium tracking-tight text-gray-700">Stock Available</h1>
+                <h1 class="text-2xl md:text-3xl font-semibold tracking-tight text-gray-700 mt-3">US$600</h1>
+                <h1 class="text-xs md:text-sm text-red-600 font-normal mt-2">[FREE SHIPING]</h1>
+                <div class="flex items-center justify-between mt-3 md:mt-5">
+                    <a href="https://wa.me/+6285190060033" class="w-full text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-light rounded-md text-sm px-5 py-3 text-center shadow-sm"><i class="fa-solid fa-cart-shopping mr-2"></i>Order now</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="bg-gray-900 font-poppins">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-0 md:mb-0 mt-4 md:mt-0">
+                    <a href="" class="flex items-center">
+                        <img src="assets/img/BIG TEXT WHITE.png" class="h-16 md:h-20 me-3" alt="FlowBite Logo" />
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 mt-10 md:mt-0">
+                    <div>
+                        <h2 class="mb-6 text-sm font-medium  uppercase text-white">Follow us</h2>
+                        <ul class="text-gray-400 font-normal">
+                            <li class="mb-4">
+                                <a href="https://www.facebook.com/profile.php?id=61557077165491&mibextid=LQQJ4d" class="hover:underline font-light md:font-normal">Facebook Page</a>
+                            </li>
+                            <li class="mb-4 md:mb-0">
+                                <a href="https://www.facebook.com/share/sZC2RhDVAsGyGSAn/?mibextid=kFxxJD" class="hover:underline font-light md:font-normal">Facebook Account</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between text-gray-400">
+                <span class="text-sm sm:text-centertext-gray-400">© 2024 <a href="https://tristarwaterdetector.com"
+                        class="hover:underline">PT. Tristar Anugerah Perkasa</a>. All Rights Reserved.
+                </span>
+            </div>
+            <ul class="text-gray-400 font-normal text-sm mt-5">
+                <li class="">
+                    <a href="#" class="hover:underline font-light md:font-normal">Depok, West Java, Indonesia</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
