@@ -36,7 +36,7 @@
                 <i class="fa fa-check mr-2"></i>Predict aquifer depth and thickness
             </div>
             <div class="mt-4">
-                Contact us for ordering: <br><br>
+                Contact Us for Ordering: <br><br>
                 <a href="https://wa.me/+6285190060033" class="focus:outline-none text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:ring-green-300 font-light md:font-normal rounded-md text-xs px-5 py-3 me-2 mb-2 mt-2"><i class="fa-brands fa-whatsapp mr-1"></i>WhatsApp</a>
                 <a href="https://www.facebook.com/share/sZC2RhDVAsGyGSAn/?mibextid=kFxxJD" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-light md:font-normal rounded-md text-xs px-5 py-3 me-2 mb-2">
                 <i class="fa-brands fa-facebook-f mr-2" style="color: #ffffff;"></i>Facebook</a>
