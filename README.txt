@@ -1,6 +1,9 @@
-Landing Page \ Company Profile by Noval Fatriand
+Landing Page \ Company Profile for Tristar Anugrah Perkasa
 
-Domain Name : tristardetector.com
+Developer : Noval Fatriand
+
+Programming Language : PHP
+Domain Name : tristarwd.com
 Hosting Provider : Niaga Hoster
 
 Features : 

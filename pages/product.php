@@ -36,7 +36,7 @@
 <body class="">
     <!-- Navbar Start -->
     <nav class="bg-white border-gray-200 shadow-lg font-poppins sticky top-0 z-50">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:p-5">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:p-6">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="assets/img/BIG TEXT.png" class="h-11 md:h-14 ml-4 md:-mt-2" alt="Tristar Logo" />
             </a>
@@ -52,28 +52,28 @@
                 <ul
                     class="flex flex-col font-light p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
                     <li>
-                        <a href="index.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Home</a>
-                    </li>
-                    <li>
-                        <a href="index.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About</a>
+                        <a href="/tristarDetector/" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Home</a>
                     </li>
                     <li>
                         <a href="#product-image" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
                             aria-current="page">Product</a>
                     </li>
                     <li>
-                        <a href="index.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Contact</a>
+                        <a href="/tristarDetector/" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Contact</a>
                     </li>
+                    <!-- <li>
+                        <a href="/tristarDetector/testimonial" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Testimonials</a>
+                    </li> -->
                 </ul>
             </div>
         </div>
 
         <!-- Price Bar -->
         <div class="block md:hidden z-31 relative">
-            <div class="fixed bottom-0 bg-[#f7fcff] h-[87px] w-full items-center border border-t-gray-200 flex flex-row justify-around py-0">
+            <div class="fixed bottom-0 bg-[#fafdff] h-[87px] w-full items-center border border-t-gray-200 flex flex-row justify-around py-0"> <!-- bg-[#f7fcff] -->
                 <div class="flex flex-col m-0">
-                    <h1 class="text-2xl md:text-3xl font-semibold tracking-tight text-gray-700 m-0">US$600</h1>
-                    <p class="text-xs font-light tracking-tight text-gray-500 md:mt-0">Stock Available</p>
+                    <h1 class="text-2xl md:text-3xl font-semibold tracking-tight text-gray-700 m-0">US$500</h1>
+                    <p class="text-xs font-light tracking-tight animate-pulse text-gray-500 md:mt-0">Stock Available</p>
                 </div>
                 <div class="">
                     <a href="https://wa.me/+6285190060033" class="w-20 text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-light rounded-full text-sm px-5 py-3 text-center shadow-sm"><i class="fa-solid fa-cart-shopping mr-2"></i>Order now</a>
@@ -87,7 +87,7 @@
 
     <!-- Navigation Status -->
     <div class="flex flex-row mt-7 ml-7 md:mt-10 md:ml-16">
-        <a href="index.html"><i class="fa-solid fa-house text-gray-400 text-xs md:text-base mr-4"></i></a>
+        <a href="index.php"><i class="fa-solid fa-house text-gray-400 text-xs md:text-base mr-4"></i></a>
         <p class="font-poppins text-xs md:text-sm mt-1.5 md:mt-0.5 font-light text-gray-500"><i class="fa-solid fa-greater-than text-xs text-gray-300 mr-2"></i> Product <i class="fa-solid fa-greater-than text-xs text-gray-300 mr-2 ml-2"></i> Water Detector</p>
     </div>
 
@@ -95,7 +95,7 @@
     <!-- Product Section -->
     <section id="product-image" class="mt-4 md:mt-0 mb-20">
         <div class="container px-8 md:px-20 md:flex md:flex-row">
-            <div id="indicators-carousel" class="relative w-full md:w-[90rem] md:h-[30rem] columns-md rounded-xl mt-5 md:-mt-9" data-carousel="static">
+            <div id="indicators-carousel" class="relative w-full md:w-[90rem] md:h-[30rem] columns-md rounded-xl mt-5 md:-mt-6 md:flex md:flex-col" data-carousel="static">
                 <!-- Carousel wrapper -->
                 <div class="relative h-56 overflow-hidden rounded-lg md:h-full">
                     <!-- Image 1 -->
@@ -108,13 +108,41 @@
                     </div>
                     <!-- Image 3 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="assets/img/product-image-three-1.png" class="absolute block h-auto max-w-full rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Product Image Two">
+                        <img src="assets/img/Products/product-one.png" class="absolute block h-auto max-w-full rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Product Image Two">
                     </div>
                     <!-- Image 4 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <img src="assets/img/product-image-four-1.png" class="absolute block h-auto max-w-full rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Product Image Two">
                     </div>
                 </div>
+
+                <!-- Thumbnail List -->
+                <div class="flex justify-start md:justify-center gap-3 mt-4">
+                    <button data-carousel-slide-to="0"
+                        class="thumbnail border-2 border-blue-500 rounded-md overflow-hidden w-12 h-12 md:w-16 md:h-16">
+                        <img src="assets/img/product-image-one-1.png"
+                            class="object-cover w-full h-full" alt="Thumb 1">
+                    </button>
+
+                    <button data-carousel-slide-to="1"
+                        class="thumbnail border border-gray-300 rounded-md overflow-hidden w-12 h-12 md:w-16 md:h-16 hover:border-blue-400">
+                        <img src="assets/img/product-image-two-2.png"
+                            class="object-cover w-full h-full" alt="Thumb 2">
+                    </button>
+
+                    <button data-carousel-slide-to="2"
+                        class="thumbnail border border-gray-300 rounded-md overflow-hidden w-12 h-12 md:w-16 md:h-16 hover:border-blue-400">
+                        <img src="assets/img/Products/product-one.png"
+                            class="object-cover w-full h-full" alt="Thumb 3">
+                    </button>
+
+                    <button data-carousel-slide-to="3"
+                        class="thumbnail border border-gray-300 rounded-md overflow-hidden w-12 h-12 md:w-16 md:h-16 hover:border-blue-400">
+                        <img src="assets/img/Products/product-two.png"
+                            class="object-cover w-full h-full" alt="Thumb 4">
+                    </button>
+                </div>
+
                 <!-- Slider controls -->
                 <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
                     <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-300/30 group-hover:bg-gray-300/60 group-focus:ring-4 group-focus:ring-gray-200/70 group-focus:outline-none">
@@ -136,8 +164,8 @@
 
             <div class="w-full md:w-[100rem] md:min-h-96 md:ml-1 mt-7 md:mt-5 md:px-5 font-poppins columns-md">
                 <h1 class="text-2xl md:text-3xl font-bold tracking-tight text-gray-700">AEROX WATER DETECTOR</h1>
-                <button type="button" class="text-white bg-blue-400 font-light rounded-xl rounded-tr-none rounded-bl-none text-xs px-4 py-1 me-2 mb-2 mt-1 md:mt-2">BRAND NEW</button>
-                    <div class="flex flex-row mt-0">
+                <button type="button" class="text-white bg-blue-400 font-light rounded-xl rounded-tr-none rounded-bl-none text-xs px-4 py-1 me-2 mb-0 md:mb-2 mt-1 md:mt-2">BRAND NEW</button>
+                    <div class="flex flex-row -mt-5 md:-mt-0">
                         <button id="button-desc" class="mr-6 text-black font-semibold mt-10 mb-2" onclick="buttonDesc()">
                             <h5 class="text-xs md:text-base">DESCRIPTION</h5>
                         </button>
@@ -154,11 +182,11 @@
                     </div>
             </div>
 
-            <div class="productDescEffect mt-5 ml-0 md:ml-2 md:w-[60rem] h-56 p-5 font-poppins border border-gray-300 rounded-lg md:rounded-md">
-                <h1 class="text-xl md:text-xl font-light tracking-tight text-gray-700 mt-2 md:mt-0">Stock Available</h1>
-                <h1 class="text-3xl md:text-3xl font-semibold tracking-tight text-gray-700 mt-2">US$600</h1>
-                <h1 class="text-xs md:text-sm text-red-600 font-normal mt-2">[FREE SHIPING]</h1>
-                <div class="flex items-center justify-between mt-5 md:mt-5">
+            <div class="productDescEffect mt-5 ml-0 md:ml-2 md:w-[60rem] h-56 p-5 border border-gray-300 rounded-lg md:rounded-md">
+                <h1 class="text-xl md:text-xl font-light tracking-tight text-gray-700 mt-2 md:mt-0 font-poppins">Stock Available</h1>
+                <h1 class="text-3xl md:text-3xl font-bold tracking-tight text-gray-700 mt-2">US$500</h1>
+                <h1 class="text-xs md:text-sm text-red-600 font-normal mt-2 font-poppins">[FREE SHIPING]</h1>
+                <div class="flex items-center justify-between mt-5 md:mt-5 font-poppins">
                     <a href="https://wa.me/+6285190060033" class="w-full text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-light rounded-md text-sm px-5 py-3 text-center shadow-sm"><i class="fa-solid fa-cart-shopping mr-2"></i>Order now</a>
                 </div>
             </div>
@@ -193,7 +221,7 @@
             </div>
             <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
             <div class="sm:flex sm:items-center sm:justify-between text-gray-400">
-                <span class="text-sm sm:text-centertext-gray-400">© 2025 <a href="https://tristarwaterdetector.com"
+                <span class="text-sm sm:text-centertext-gray-400">© 2026 <a href="https://tristarwaterdetector.com"
                         class="hover:underline">PT. Tristar Anugerah Perkasa</a>. All Rights Reserved.
                 </span>
             </div>
@@ -208,5 +236,7 @@
 
     <script src="assets/js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="assets/js/carousel-thumbnail.js"></script>
+
 </body>
 </html>

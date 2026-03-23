@@ -33,7 +33,7 @@
 <body>
     <!-- Navbar Start -->
     <nav class="bg-white border-gray-200 shadow-lg font-poppins sticky top-0 z-50">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:p-5">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:p-6">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="assets/img/BIG TEXT.png" class="h-11 md:h-14 ml-4 md:-mt-2" alt="Tristar Logo" />
             </a>
@@ -53,22 +53,24 @@
                             aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About</a>
-                    </li>
-                    <li>
-                        <a href="product-development.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Product</a>
+                        <a href="/tristarDetector/product" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Product</a>
                     </li>
                     <li>
                         <a href="#contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Contact</a>
                     </li>
+                    <!-- <li>
+                        <a href="/tristarDetector/testimonial" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Testimonials</a>
+                    </li> -->
                 </ul>
             </div>
         </div>
 
-        <!-- WhatsApp Direct Link -->     
         <div class="z-30 relative">
-            <div class="fixed right-7 bottom-5 bg-gradient-to-b from-blue-900 to-blue-700 h-16 w-16 rounded-2xl shadow-lg items-center">
-                <a href="https://wa.me/+6285190060033"><img class="animate-pulse object-cover mx-auto mt-4 w-8 h-8" src="assets/img/phone_11433243.png" alt=""></a>
+            <div class="fixed right-7 bottom-5 bg-gradient-to-br from-green-700 to-green-500 h-12 w-36 lg:h-14 lg:w-40 rounded-xl shadow-lg flex items-center">
+                <a href="https://wa.me/+6285190060033" class="flex items-center justify-center gap-3 text-white text-sm lg:text-base font-light px-4 w-full h-full mx-auto animate-pulse">
+                    <img src="assets/img/phone_11433243.png" alt="Direct Link" class="w-6 h-6 lg:w-8 lg:h-8">
+                    <span>WhatsApp</span>
+                </a>
             </div>
         </div>
     </nav>
@@ -80,7 +82,7 @@
         class="font-poppins bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
         <div class="fade-in-text py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
             <a href="#product" class="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 mt-10 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
-                <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3">New</span> <span
+                <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3 animate-pulse">New</span> <span
                     class="text-sm font-light md:font-medium">Our product was launched! See what's new</span>
                 <svg class="w-2.5 h-2.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                     fill="none" viewBox="0 0 6 10">
@@ -135,11 +137,11 @@
                 <div class="px-9 pb-7">
                     <a href="#">
                         <h5 class="text-2xl md:text-3xl font-semibold tracking-tight text-[#112f4a]">Aerox Water Detector</h5>
-                        <p class="text-base mb-6 mt-2 font-light text-[#8ea0b6]">Your simple, quick, and accurate solution for locating ground water sources.</p>
+                        <p class="text-base mb-6 mt-2 font-light md:font-extralight text-[#8ea0b6]">Your simple, quick, and accurate solution for locating ground water sources.</p>
                     </a>
                     <div class="flex items-center justify-between">
-                        <span class="text-2xl md:text-3xl font-normal text-slate-700">$600</span>
-                        <a href="product-development.html" class="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-light rounded-md text-sm px-5 py-2.5 text-center shadow-md">Read more</a>
+                        <span class="text-2xl md:text-3xl font-normal text-slate-700">$500</span>
+                        <a href="/tristarDetector/product" class="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-light rounded-md text-sm px-5 py-2.5 text-center shadow-md">Read more</a>
                     </div>
                 </div>
             </div> 
@@ -156,17 +158,24 @@
                     <h2 class="mb-4 text-3xl md:text-5xl tracking-tight font-extrabold text-gray-900">Let's talk.</h2>
                     <p class="font-light text-gray-500 sm:text-lg">Feel free to contact with us any time.</p>
                 </div> 
-                <div class="gap-8 grid md:gap-0 sm:grid-cols-2 md:grid-cols-2 contactCardReveal">
-                    <div class="text-center text-gray-500 md:ml-32">
-                        <img class="mx-auto mb-3 w-20 h-20 md:w-36 md:h-36 rounded-full" src="assets/img/icon-phone.png" alt="Phone">
-                        <h3 class="text-lg font-semibold tracking-tight text-gray-900">
-                            <a href="https://wa.me/+6285190060033">Phone Number</a>
+                <div class="gap-8 grid md:gap-0 sm:grid-cols-3 md:grid-cols-3 contactCardReveal">
+                    <div class="text-center text-gray-500">
+                        <img class="mx-auto mb-3 w-20 h-20 md:w-36 md:h-36 md:p-4 p-2 rounded-full" src="assets/img/logo/whatsapp-icon.png" alt="Phone">
+                        <h3 class="text-lg font-semibold tracking-tight text-gray-900 hover:text-gray-950 hover:underline">
+                            <a href="https://wa.me/+6285190060033">WhatsApp</a>
                         </h3>
                         <p class="mt-2">(+62) 851 9006 0033</p>
                     </div>
-                    <div class="text-center text-gray-500 md:-ml-28">
-                        <img class="mx-auto mb-3 w-20 h-20 md:w-36 md:h-36 rounded-full" src="assets/img/icon-mail.png" alt="Mail">
-                        <h3 class="text-lg font-semibold tracking-tight text-gray-900">
+                    <div class="text-center text-gray-500">
+                        <img class="mx-auto mb-3 w-20 h-20 md:w-36 md:h-36 rounded-full" src="assets/img/logo/facebook-icon.png" alt="Mail">
+                        <h3 class="text-lg font-semibold tracking-tight text-gray-900 hover:text-gray-950 hover:underline">
+                            <a href="https://www.facebook.com/profile.php?id=61557077165491&mibextid=LQQJ4d">Facebook</a>
+                        </h3>
+                        <p class="mt-2">Tristar Water Detector</p>
+                    </div>
+                    <div class="text-center text-gray-500">
+                        <img class="mx-auto mb-3 w-20 h-20 md:w-36 md:h-36 md:p-4 p-2 rounded-full" src="assets/img/logo/email-icon.png" alt="Mail">
+                        <h3 class="text-lg font-semibold tracking-tight text-gray-900 hover:text-gray-950 hover:underline">
                             <a href="mailto: tristar.wd@gmail.com">Mail Address</a>
                         </h3>
                         <p class="mt-2">tristar.wd@gmail.com</p>
@@ -202,7 +211,7 @@
             </div>
             <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
             <div class="sm:flex sm:items-center sm:justify-between text-gray-400">
-                <span class="text-sm sm:text-centertext-gray-400">© 2025 <a href="https://tristarwaterdetector.com"
+                <span class="text-sm sm:text-centertext-gray-400">© 2026 <a href="https://tristarwd.com"
                         class="hover:underline">PT. Tristar Anugrah Perkasa</a>. All Rights Reserved.
                 </span>
             </div>

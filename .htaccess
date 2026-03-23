@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /tristarDetector/
+# GANTI JADI '/' DOANG DI PROD
+# GANTI JADI '/tristarDetector/' DI DEV
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.+)$ index.php?page=$1 [L]
