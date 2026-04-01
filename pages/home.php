@@ -140,7 +140,7 @@
                         <p class="text-base mb-6 mt-2 font-light md:font-extralight text-[#8ea0b6]">Your simple, quick, and accurate solution for locating ground water sources.</p>
                     </a>
                     <div class="flex items-center justify-between">
-                        <span class="text-2xl md:text-3xl font-normal text-slate-700">$500</span>
+                        <span class="text-2xl md:text-3xl font-normal text-slate-700">$470</span>
                         <a href="/tristarDetector/product" class="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-light rounded-md text-sm px-5 py-2.5 text-center shadow-md">Read more</a>
                     </div>
                 </div>
