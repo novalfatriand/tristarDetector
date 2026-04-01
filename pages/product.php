@@ -111,11 +111,11 @@
                     </div>
                     <!-- Image 3 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="assets/img/Products/product-one.png" class="absolute block h-auto max-w-full rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Product Image Two">
+                        <img src="assets/img/Products/product-one.png" class="absolute block h-auto md:h-64 max-w-full rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Product Image Two">
                     </div>
                     <!-- Image 4 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="assets/img/product-image-four-1.png" class="absolute block h-auto max-w-full rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Product Image Two">
+                        <img src="assets/img/Products/product-two.png" class="absolute block h-auto md:h-72 max-w-full rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Product Image Two">
                     </div>
                 </div>
 
