@@ -72,7 +72,10 @@
         <div class="block md:hidden z-31 relative">
             <div class="fixed bottom-0 bg-[#fafdff] h-[87px] w-full items-center border border-t-gray-200 flex flex-row justify-around py-0"> <!-- bg-[#f7fcff] -->
                 <div class="flex flex-col m-0">
-                    <h1 class="text-2xl md:text-3xl font-semibold tracking-tight text-gray-700 m-0">US$500</h1>
+                    <div class="flex flex-row items-start gap-1">
+                        <h1 class="text-2xl md:text-3xl font-semibold tracking-tight text-gray-700 m-0">US$470</h1>
+                        <h1 class="text-xs md:text-sm text-red-600 font-normal mt-2 font-poppins">[12%]</h1>
+                    </div>
                     <p class="text-xs font-light tracking-tight animate-pulse text-gray-500 md:mt-0">Stock Available</p>
                 </div>
                 <div class="">
@@ -184,8 +187,12 @@
 
             <div class="productDescEffect mt-5 ml-0 md:ml-2 md:w-[60rem] h-56 p-5 border border-gray-300 rounded-lg md:rounded-md">
                 <h1 class="text-xl md:text-xl font-light tracking-tight text-gray-700 mt-2 md:mt-0 font-poppins">Stock Available</h1>
-                <h1 class="text-3xl md:text-3xl font-bold tracking-tight text-gray-700 mt-2">US$500</h1>
-                <h1 class="text-xs md:text-sm text-red-600 font-normal mt-2 font-poppins">[FREE SHIPING]</h1>
+                <div class="flex flex-row gap-1">
+                <h1 class="text-3xl font-bold tracking-tight text-gray-700 mt-2">US$470</h1>
+                <h1 class="text-xs md:text-sm text-red-600 font-normal mt-2 font-poppins">[12%]</h1>
+                </div>
+                <h1 class="text-lg text-gray-500 font-normal mt-2 font-poppins line-through">US $500</h1>
+                
                 <div class="flex items-center justify-between mt-5 md:mt-5 font-poppins">
                     <a href="https://wa.me/+6285190060033" class="w-full text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-light rounded-md text-sm px-5 py-3 text-center shadow-sm"><i class="fa-solid fa-cart-shopping mr-2"></i>Order now</a>
                 </div>
